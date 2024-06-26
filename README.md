@@ -12,6 +12,7 @@ Eywe软件是一款免费的项目管理工具，灵活落地IPD、SCRUM、PMBOO
 账号：ZhangSan， 密码：123456
 
 QQ群交流群：[960994897]
+
 ![qq二维码](https://github.com/EyweSoft/EyweSoft/assets/173810617/317a81bd-0022-4d62-908e-b996131377d7)
 
 
