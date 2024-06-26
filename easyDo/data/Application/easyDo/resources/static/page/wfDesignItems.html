@@ -1,0 +1,73 @@
+<svg itype="panel" xmlns="http://www.w3.org/2000/svg">
+
+	<!-- workflow config graph -->
+	<defs>
+		<marker id="ARROW" refY="50" refX="50" markerHeight="9" markerWidth="10" viewBox="0 0 100 100" orient="auto">
+  			<path class="svg-arrow-path" d="m100,50l-100,40l30,-40l-30,-40z" />
+		</marker>
+		
+		<marker id="ARROW_PATH" refY="50" refX="50" markerHeight="9" markerWidth="10" viewBox="0 0 100 100" orient="auto">
+  			<path class="svg-arrow-path2" d="m100,50l-100,40l30,-40l-30,-40z" />
+		</marker>
+		
+		<marker id="ARROW_MST" refY="50" refX="50" markerHeight="4" markerWidth="5" viewBox="0 0 100 100" orient="auto">
+  			<path class="svg-arrow-path" d="m100,50l-100,40l30,-40l-30,-40z" />
+		</marker>
+		
+		<marker id="ARROW_MST_PATH" refY="50" refX="50" markerHeight="4" markerWidth="5" viewBox="0 0 100 100" orient="auto">
+  			<path class="svg-arrow-path2" d="m100,50l-100,40l30,-40l-30,-40z" />
+		</marker>
+	</defs>
+	
+	<g id="T_ITEM">
+		<circle id="POINT" itype="op_point" class="svg-point" r="5" style="display: none;"/>
+		<line id="CONNECT" class="svg-connect" style="display: none;"  marker-end="url(#ARROW)"/>
+	</g>
+	
+	<g id="T_OP" itype="op">
+		<text itype="op_text" class="svg-op-text"/>
+		<path itype="op_path" class="svg-op-path" marker-end="url(#ARROW)"/>
+		<image itype="op_edit" style="display: none;" width="12" height="12" y="40" xlink:href="/img/workflow/icon224.gif"/>
+	</g>
+	
+	<g id="T_NODE" itype="node" in="" out="">
+		<image itype="node_img" style="display: none;" width="32" height="32" x="2" y="2" xlink:href="" />
+		<image itype="node_edit" style="display: none;" width="12" height="12" y="39" xlink:href="/img/workflow/icon224.gif"/>
+		<text itype="node_text" class="svg-node-text" x="17" y="50"/>
+		<path itype="node_path" style="display: none;" class="svg-node-path"/>
+	</g>
+	
+	<!-- project look graph -->
+	<g id="PJT_C" itype="cat">
+		<ellipse id="c_path" cx="0" cy="0" style="display: none;fill: rgb(201, 215, 241);stroke: white;stroke-width: 2;"/>
+		<text id="c_text" style="display: none;font-weight: bold;" />
+	</g>
+	
+	<path id="PJT_P" class="svg-path" style="display: none;fill: none;stroke: rgb(201, 215, 241);stroke-width: 5;" />
+	
+	<g id="PJT_T">
+		<path id="t_path" class="svg-path" style="display: none;fill: none;stroke: blue;stroke-width: 1;" />
+		<text id="t_text" style="display: none;fill: blue;opacity: 0.9;" />
+	</g>
+	
+	<!-- milestone graph -->
+	<g id="MST_PT" itype="point">
+		<path id="p_path" style="display: none;fill: white;stroke: black;stroke-width: 1;opacity: 0.7;" />
+		<text id="p_text" style="display: none;opacity: 0.7;" />
+	</g>
+	
+	<path id="MST_L" itype="connect" style="display: none;fill: none;stroke: black;stroke-width: 1;opacity: 0.9" />
+	
+	<g id="MST_PH" itype="phase">
+		<text id="phase_text" style="display: none;" />
+		
+		<path id="phase_s" style="display: none;fill: black;stroke: black;stroke-width: 1;opacity: 0.9" />
+		<path id="phase_e" style="display: none;fill: black;stroke: black;stroke-width: 1;opacity: 0.9" />
+		
+		<line id="phase_l" style="display: none;fill: black;stroke: black;stroke-width: 1;opacity: 0.9" marker-end="url(#ARROW_MST)" />
+		<line id="phase_r" style="display: none;fill: black;stroke: black;stroke-width: 1;opacity: 0.9" marker-end="url(#ARROW_MST)" />
+	</g>
+	
+	<text id="MST_T" style="display: none;font-weight: bold;font-size: 13px;" />
+	
+</svg>

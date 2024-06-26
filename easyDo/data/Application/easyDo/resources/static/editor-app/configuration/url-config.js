@@ -1,0 +1,1 @@
+var KISBPM=KISBPM||{};KISBPM.URL={getModel:function(t){return ACTIVITI.CONFIG.contextRoot+"/model/"+t+"/json"},getStencilSet:function(){return ACTIVITI.CONFIG.contextRoot+"/editor/stencilset?version="+Date.now()},putModel:function(t){return ACTIVITI.CONFIG.contextRoot+"/model/"+t+"/save"}};

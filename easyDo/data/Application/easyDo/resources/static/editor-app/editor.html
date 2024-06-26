@@ -1,0 +1,91 @@
+<div ng-controller="StencilController">
+  <div class="full">
+      <div class="row row-no-gutter">
+	      <ul class="ng-scope workflow-operate-btn" ng-controller="ToolbarController" ng-cloak>
+			<li class="tools">
+				工具箱
+			</li>
+			<li class="stencil-item ng-scope ng-pristine ng-valid ng-binding ui-draggable" id="StartNoneEvent" title="开始" ng-model="draggedElement" data-drag="true" jqyoui-draggable="{onStart:'startDragCallback', onDrag:'dragCallback'}" data-jqyoui-options="{revert: 'invalid', helper: 'clone', opacity : 0.5}" aria-disabled="false" style="position: relative;">
+				<img ng-src="editor-app/images/start.png" class="btn-img" src="editor-app/images/start.png">
+			</li>
+			<li class="stencil-item ng-scope ng-pristine ng-valid ng-binding ui-draggable" id="UserTask" title="步骤 " ng-model="draggedElement" data-drag="true" jqyoui-draggable="{onStart:'startDragCallback', onDrag:'dragCallback'}" data-jqyoui-options="{revert: 'invalid', helper: 'clone', opacity : 0.5}" aria-disabled="false" style="position: relative;">    
+			    <img ng-src="editor-app/images/status.png" class="btn-img" src="editor-app/images/status.png">
+			</li>
+			<li class="stencil-item ng-scope ng-pristine ng-valid ng-binding ui-draggable" id="ExclusiveGateway" title="决策" ng-model="draggedElement" data-drag="true" jqyoui-draggable="{onStart:'startDragCallback', onDrag:'dragCallback'}" data-jqyoui-options="{revert: 'invalid', helper: 'clone', opacity : 0.5}" aria-disabled="false" style="position: relative;">
+			    <img ng-src="editor-app/images/decision.png" class="btn-img" src="editor-app/images/decision.png">
+			</li>
+			<li class="stencil-item ng-scope ng-pristine ng-valid ng-binding ui-draggable" id="EndNoneEvent" title="结束" ng-model="draggedElement" data-drag="true" jqyoui-draggable="{onStart:'startDragCallback', onDrag:'dragCallback'}" data-jqyoui-options="{revert: 'invalid', helper: 'clone', opacity : 0.5}" aria-disabled="false" style="position: relative;">
+				<img ng-src="editor-app/images/end.png" class="btn-img" src="editor-app/images/end.png">
+			</li>
+			<li class="line">
+				<div></div>
+			</li>
+			<li id="{{item.id}}" title="{{item.nTitle | translate}}" class="{{item.cssClass}}" ng-click="item.enabled == false || toolbarButtonClicked($index)" ng-repeat="item in items" ng-switch on="item.type" class="{{item.cssClass}}" ng-class="{'separator': item.type == 'separator'}" ng-disabled="item.type == 'separator' || item.enabled == false">
+	            <div ng-switch-when="separator"></div>
+        	</li>
+		  </ul>   
+	      <div id="canvasHelpWrapper" class="col-xs-12">
+	      	<div class="canvas-wrapper" id="canvasSection" ng-model="droppedElement" ng-model="droppedElement" data-drop="true" data-jqyoui-options jqyoui-droppable="{onDrop:'dropCallback',onOver: 'overCallback', onOut: 'outCallback'}"> 
+            	<div class="canvas-message" id="model-modified-date"></div>
+            	  <div class="Oryx_button" id="delete-button" title="删除" ng-click="deleteShape()" style="display:none">
+            	    <img src="editor-app/images/delete.png"/>
+            	 </div>
+            	 <div class="Oryx_button" id="morph-button" title="编辑" ng-click="morphShape()" style="display:none">
+            	    <img src="editor-app/images/wrench.png"/>
+            	 </div>
+	             <div class="Oryx_button" id="SequenceFlow" title="增加操作" ng-click="quickAddItem('SequenceFlow')" ng-model="draggedElement" data-drag="true" jqyoui-draggable="{onStart:'startDragCallbackQuickMenu', onDrag:'dragCallbackQuickMenu'}" data-jqyoui-options="{revert: 'invalid', helper: 'clone', opacity : 0.5}" style="display:none;" aria-disabled="false">
+	             	<img ng-src="editor-app/images/sequenceflow.png" src="editor-app/images/sequenceflow.png">
+	             </div>
+	             <div class="Oryx_button" id="UserTask" title="增加步骤 " ng-click="quickAddItem('UserTask')" ng-model="draggedElement" data-drag="true" jqyoui-draggable="{onStart:'startDragCallbackQuickMenu', onDrag:'dragCallbackQuickMenu'}" data-jqyoui-options="{revert: 'invalid', helper: 'clone', opacity : 0.5}" style="display:none;" aria-disabled="false">
+	             	<img ng-src="editor-app/images/status.png" src="editor-app/images/status.png">
+	             </div>
+	             <div class="Oryx_button" id="CountSignEvent" title="增加会签" ng-click="quickAddItem('CountSignEvent')" ng-model="draggedElement" data-drag="true" jqyoui-draggable="{onStart:'startDragCallbackQuickMenu', onDrag:'dragCallbackQuickMenu'}" data-jqyoui-options="{revert: 'invalid', helper: 'clone', opacity : 0.5}" style="display:none;" aria-disabled="false">
+	             	<img ng-src="editor-app/images/countSign.png" src="editor-app/images/countSign.png">
+	             </div>
+				<div class="Oryx_button" id="DeriveEvent" title="增加派生" ng-click="quickAddItem('DeriveEvent')" ng-model="draggedElement" data-drag="true" jqyoui-draggable="{onStart:'startDragCallbackQuickMenu', onDrag:'dragCallbackQuickMenu'}" data-jqyoui-options="{revert: 'invalid', helper: 'clone', opacity : 0.5}" style="display:none;" aria-disabled="false">
+	             	<img ng-src="editor-app/images/derive.png" src="editor-app/images/decision.png">
+	             </div>
+	         </div>
+           </div>
+           <div id="propertiesHelpWrapper" class="col-xs-12" style="display:none;">
+            	<div class="propertySection" id="propertySection"
+                	ng-class="{collapsed: propertyWindowState.collapsed}">
+	                <div class="selected-item-section">
+	                	<div class="clearfix">
+		                    <div class="pull-right" ng-if="selectedItem.auditData.createDate">
+		                        <strong>{{'ELEMENT.DATE_CREATED' | translate}}: </strong> {{selectedItem.auditData.createDate}}
+		                    </div>
+		                    <div class="pull-right" ng-if="selectedItem.auditData.author">
+		                        <strong>{{'ELEMENT.AUTHOR' | translate}}: </strong> {{selectedItem.auditData.author}}
+		                    </div>
+		                    <div class="selected-item-title">
+		                        <a ng-click="propertyWindowState.toggle()"> 
+		                            <i class="glyphicon" ng-class="{'glyphicon-chevron-right': propertyWindowState.collapsed, 'glyphicon-chevron-down': !propertyWindowState.collapsed}"></i>
+		                            <span ng-show="selectedItem.title != undefined && selectedItem.title != null && selectedItem.title.length > 0">{{selectedItem.title}}</span> 
+		                            <span ng-show="!selectedItem || selectedItem.title == undefined || selectedItem.title == null || selectedItem.title.length == 0">{{modelData.name}}</span>
+		                        </a>
+		                    </div>
+		                </div>
+                    	<div class="selected-item-body">
+	                        <div>
+	                             <div class="property-row" ng-repeat="property in selectedItem.properties"
+	                                ng-click="propertyClicked($index)" ng-class="{'clear' : $index%2 == 0}">
+	                                <span class="title" ng-if="!property.hidden">{{ property.title }}&nbsp;:</span>
+	                                <span class="title-removed" ng-if="property.hidden"><i>{{ property.title }}&nbsp;({{'PROPERTY.REMOVED' | translate}})&nbsp;:</i></span>
+	                                <span class="value"> 
+	                                    <ng-include
+	                                        src="getPropertyTemplateUrl($index)" ng-if="!property.hasReadWriteMode"></ng-include>
+	                                    <ng-include src="getPropertyReadModeTemplateUrl($index)"
+	                                        ng-if="property.hasReadWriteMode && property.mode == 'read'"></ng-include>
+	                                    <ng-include src="getPropertyWriteModeTemplateUrl($index)"
+	                                        ng-if="property.hasReadWriteMode && property.mode == 'write'"></ng-include>
+	                                </span>
+	                            </div>
+	                        </div>
+	                    </div>
+	    			</div>     
+    			</div>            
+            </div>
+         </div>
+    </div>
+</div>

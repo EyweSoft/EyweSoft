@@ -1,0 +1,1 @@
+var KisBpmMultiInstanceCtrl=["$scope",function(e){null==e.property.value&&null==e.property.value&&(e.property.value="None"),e.multiInstanceChanged=function(){e.updatePropertyInModel(e.property)}}];

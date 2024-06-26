@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<easyVersion>
+	<version key="ROOT">BASE</version>
+	<version key="BASE">ENTITY</version>
+	<version key="ENTITY">WORKFLOW</version>
+</easyVersion>

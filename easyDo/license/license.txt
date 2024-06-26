@@ -1,0 +1,23 @@
+1. 范围
+<div class="ls-content">Eywe项目管理软件由易为软件有限公司（简称：易为软件）自主研发，商用版系统受如下许可协议约束。</div>
+2. 版权
+<div class="ls-content">Eywe软件的版权归易为软件所有，受《中华人民共和国计算机保护条例》、《中华人民共和国著作权法》、《中华人民共和国专利法》等法律法规，以及国际版权条约保护。只授予使用许可，而非出售。</div>
+3. 客户权利
+<div class="ls-content">a) 永久使用Eywe产品功能。</div>
+<div class="ls-content">b) 获得一年免费的无限次的电话、微信、QQ、Email技术支持。</div>
+<div class="ls-content">c) 从易为软件官方网站（www.cseywe.com）获得新版本发布通知。</div>
+4. 使用限制
+<div class="ls-content">a) 不得向他人转让本许可证。</div>
+<div class="ls-content">b) 不得对本系统进行逆向工程、反汇编、修改软件，或对硬件解体拆缷。</div>
+5. 有限担保与责任限度
+<div class="ls-content">a) 自本协议生效之日起一年之内，易为软件保证在规定特性范围内及正常使用情况下Eywe系统没有重大缺陷。</div>
+6. 其他声明
+<div class="ls-content">a) Java和基于Java的所有商标均为Sun Microsystems公司在美国和/或其他国家/地区的商标。</div>
+<div class="ls-content">b) 其他公司、产品或服务名称为其他相关公司的商标或服务标志。</div>
+7. 用户责任与义务
+<div class="ls-content">用户同意合法使用Eywe产品，不得用于非法目的。用户需对其使用许可证信息保密，不得分享或泄露。</div>
+8. 协议的终止
+<div class="ls-content">易为软件有权在用户违反本协议的情况下终止许可。用户可在遵守协议的前提下随时终止使用。</div>
+9. 保密性条款
+<div class="ls-content">用户同意保密Eywe产品的相关信息，包括但不限于源代码、技术细节等。</div>
+<div class="ls-content">警告：任何非法破解导致软件或硬件失效，本公司概不负责。</div>

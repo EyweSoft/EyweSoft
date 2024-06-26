@@ -1,0 +1,1 @@
+"use strict";var KISBPM=KISBPM||{};KISBPM.CONFIG={showRemovedProperties:!1},KISBPM.HEADER_CONFIG={showAppTitle:!0,showHeaderMenu:!0,showMainNavigation:!0,showPageHeader:!0};

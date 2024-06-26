@@ -1,0 +1,1 @@
+function setDataSource(e,a){parent.layer.open({skin:"iframeClass",type:2,title:"维护数据源",maxmin:!1,shadeClose:!0,move:!1,area:["100%","100%"],content:"/field/dataSourceList?objectType="+e+"&defaultSourceId="+a+"&isDialog=Y&parentname="+window.name,end:function(e){"function"==typeof refreshSource&&refreshSource()}})}

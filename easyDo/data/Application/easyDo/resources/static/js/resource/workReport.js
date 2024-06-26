@@ -1,0 +1,1 @@
+function editWorkReport(e){var r="/workReportEdit/"+$("#id").val()+"?objectType="+e+"&parentname="+parentName;intoIframePage(r)}function exportWorkReport(e){var r={fileName:$("#reportName").val(),fileType:".doc",isHeader:!0,isFooter:!0,header:$("#reportName").val(),styles:$("#wordExPortCss")};$("#workReport-box").wordExport(r)}

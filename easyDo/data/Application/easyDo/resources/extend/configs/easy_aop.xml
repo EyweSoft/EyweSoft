@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aops>
+	<!-- 
+	<aop>
+		<module>TIMER</module>
+		<operation>86400000</operation>
+		<class>com.dream.test.timer.TimerTest</class>
+	</aop>
+	-->
+</aops>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<!-- 默认的一些配置 -->
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+
+    <property name="LOG_PATH" value="../logs"/>
+    
+    <!-- 定义日志文件名称和路径 -->
+    <property name="LOG_FILE" value="${LOG_PATH}/easyFileView.log"/>
+    
+    <!-- 将日志滚动输出到application.log文件中 -->
+    <appender name="APPLICATION"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 输出文件目的地 -->
+        <file>${LOG_FILE}</file>
+        <encoder>
+            <!-- 使用默认的输出格式打印 -->
+            <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <!-- 设置 RollingPolicy 属性，用于配置文件大小限制，保留天数、文件名格式 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- 文件命名格式 -->
+            <fileNamePattern>${LOG_FILE}.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- 文件保留最大天数 -->
+            <maxHistory>15</maxHistory>
+            <!-- 文件大小限制 -->
+            <maxFileSize>300MB</maxFileSize>
+            <!-- 文件总大小 -->
+            <totalSizeCap>5000MB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <!-- 配置控制台输出 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!-- 配置日志打印格式 -->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] ${PID:- } %logger{36} %-5level - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+ 
+    <!-- 配置输出级别，加入输出方式 -->
+    <logger name="cn.keking" level="INFO">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="org.springframework" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="org.apache" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="net.sf" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="org.redisson" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="fr.opensagres" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="com.github" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="org.tukaani" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="net.sourceforge" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="com.thoughtworks" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="com.googlecode" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="org.rocksdb" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="com.aspose" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="org.bytedeco" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="com.lowagie" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="javax.media" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    
+    
+    <logger name="net.sourceforge" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="com.alibaba" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="org.hibernate" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="org.activiti" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+    <logger name="de.schlichtherle" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="APPLICATION"/>
+    </logger>
+   
+</configuration>

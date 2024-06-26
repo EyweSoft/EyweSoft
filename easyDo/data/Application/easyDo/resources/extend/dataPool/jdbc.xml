@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<connections>
+<!-- 	<connection id="db1"> -->
+<!-- 		<driverClass>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClass> -->
+<!-- 		<url>jdbc:sqlserver://IP;database=数据库名;SelectMethod=cursor</url> -->
+<!-- 		<username>账号</username> -->
+<!-- 		<password>密码</password> -->
+<!-- 	</connection> -->
+
+<!-- 	<connection id="db1"> -->
+<!-- 		<driverClass>com.mysql.jdbc.Driver</driverClass> -->
+<!-- 		<url>jdbc:mysql://IP/数据库名?createDatabaseIfNotExist=false&amp;useUnicode=true&amp;characterEncoding=utf-8</url> -->
+<!-- 		<username>账号</username> -->
+<!-- 		<password>密码</password> -->
+<!-- 	</connection> -->
+</connections>
+

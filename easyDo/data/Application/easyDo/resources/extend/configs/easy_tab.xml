@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tabs>
+	<!-- 
+	<tab>
+		<id>test</id>
+		<module>TSK</module>
+		<title>CustomTab</title>
+		<page>customTab.ftl</page>
+		<class>com.dream.test.tab.TabTest</class>
+	</tab>
+	-->
+</tabs>

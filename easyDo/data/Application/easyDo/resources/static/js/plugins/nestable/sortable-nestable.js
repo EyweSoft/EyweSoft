@@ -1,0 +1,1 @@
+function initNestTable(){$(".dd").nestable("",!0),$(".dd").on("change",(function(){var n=$(this),i=window.JSON.stringify($(n).nestable("serialize"));n.parents("div.body").find("textarea").val(i),changeLiBorder($(".box-right"))}))}$((function(){}));

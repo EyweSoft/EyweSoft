@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modules>
+<!-- 	<module id="MST"> -->
+<!-- 		<calculation id="whole">com.dream.platform.calculate.impl.WholeCalculationImpl</calculation> -->
+<!-- 		<calculation id="phase">com.dream.platform.calculate.impl.PhaseCalculationImpl</calculation> -->
+<!-- 	</module> -->
+</modules>
