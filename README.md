@@ -5,9 +5,9 @@
 Eywe软件是一款免费的项目管理工具，灵活落地IPD、SCRUM、PMBOOK等业界主流研发管理理念。以市场需求为导向，以计划任务为驱动，打通研发全流程，满足各岗位的项目协作需求。Eywe不仅提供项目管理、计划管理、需求管理、任务管理、测试管理和缺陷管理等丰富的功能模块，还支持用户零代码配置各种模块、流程、表单、字段、报表和仪表盘，满足用户个性化需求，协助中小型企业数字化转型，让项目管理更高效。
 
 
-官网网址：[ <a href="http://www.cseywe.com" target="_blank">http://www.cseywe.com</a> ]
+官网网址：[ <a href="http://www.cseywe.com" target="_blank" rel="noopener noreferrer">http://www.cseywe.com</a> ]
 
-演示地址：[ <a href="http://www.cseywe.com:8080" target="_blank">http://www.cseywe.com:8080</a> ]
+演示地址：[ <a href="http://www.cseywe.com:8080" target="_blank" rel="noopener noreferrer">http://www.cseywe.com:8080</a> ]
 
 账号：ZhangSan， 密码：123456
 
