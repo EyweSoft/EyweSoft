@@ -97,46 +97,47 @@ QQ群交流群：[960994897]
    ### Eywe部分功能模块预览
 
 工作台-我的任务
-![输入图片说明](images/%E6%88%91%E7%9A%84%E4%BB%BB%E5%8A%A1.png)
+![我的任务](https://github.com/EyweSoft/EyweSoft/assets/173810617/bc0b9459-c020-46a4-b24c-dc599ce7714c)
 
 工作台-我的任务-填写进展
-![输入图片说明](images/%E5%A1%AB%E5%86%99%E8%BF%9B%E5%B1%95.png)
+![填写进展](https://github.com/EyweSoft/EyweSoft/assets/173810617/ec532bc4-ab79-491c-b391-b75aec331d22)
 
 工作台-我的流程
-![输入图片说明](images/%E6%88%91%E7%9A%84%E6%B5%81%E7%A8%8B.png)
+![我的流程](https://github.com/EyweSoft/EyweSoft/assets/173810617/2f92ff7a-62d3-43b5-8b94-51a000f9c697)
 
 工作台-我的流程-流程审批
-![输入图片说明](images/%E6%B5%81%E7%A8%8B%E5%AE%A1%E6%89%B9.png)
+![流程审批](https://github.com/EyweSoft/EyweSoft/assets/173810617/332c3e84-0079-4440-8fdf-33b9af68f497)
 
 工作台-我的地盘
-![输入图片说明](images/%E6%88%91%E7%9A%84%E5%9C%B0%E7%9B%98.png)
+![我的地盘](https://github.com/EyweSoft/EyweSoft/assets/173810617/06f000f0-204d-4014-aa84-04cfac444b16)
 
 项目管理-需求管理
-![输入图片说明](images/%E9%9C%80%E6%B1%82%E7%AE%A1%E7%90%86.png)
+![需求管理](https://github.com/EyweSoft/EyweSoft/assets/173810617/6219993f-536f-4fc5-9cb2-9845374e95a3)
 
 项目管理-项目管理
-![输入图片说明](images/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86.png)
+![项目管理](https://github.com/EyweSoft/EyweSoft/assets/173810617/25d93164-4c53-4efb-ad6d-306b152e28a6)
 
 项目管理-项目管理-计划任务
-![输入图片说明](images/%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1.png)
+![计划任务](https://github.com/EyweSoft/EyweSoft/assets/173810617/e9c11a76-f3cc-47aa-a29e-7415bb4e0f2d)
 
 项目管理-项目管理-里程碑
-![输入图片说明](images/%E9%87%8C%E7%A8%8B%E7%A2%91.png)
+![里程碑](https://github.com/EyweSoft/EyweSoft/assets/173810617/16427a77-fc06-4d6e-addd-7d09168980c6)
 
 文档管理-文档库
-![输入图片说明](images/%E6%96%87%E6%A1%A3%E5%BA%93.png)
+![文档库](https://github.com/EyweSoft/EyweSoft/assets/173810617/efcdc0d2-a160-4597-851e-65b89313ce57)
 
 测试管理-测试计划
-![输入图片说明](images/%E6%B5%8B%E8%AF%95%E8%AE%A1%E5%88%92.png)
+![测试计划](https://github.com/EyweSoft/EyweSoft/assets/173810617/2f8c853c-12a5-4534-85c1-62d236e75fb8)
 
 测试管理-测试计划-执行计划
-![输入图片说明](images/%E6%89%A7%E8%A1%8C%E8%AE%A1%E5%88%92.png)
+![执行计划](https://github.com/EyweSoft/EyweSoft/assets/173810617/5a9bbacf-d6b8-4fd7-be8f-17223c6f5883)
 
 工作流程-流程管理-流程模型配置
-![输入图片说明](images/%E6%B5%81%E7%A8%8B%E6%A8%A1%E5%9E%8B%E9%85%8D%E7%BD%AE.png)
+![流程模型配置](https://github.com/EyweSoft/EyweSoft/assets/173810617/01de66d8-2641-4f61-9d4c-f9b131ac2daa)
 
 工作流程-模块管理-文档管理-页面配置
-![输入图片说明](images/%E9%A1%B5%E9%9D%A2%E9%85%8D%E7%BD%AE.png)
+![页面配置](https://github.com/EyweSoft/EyweSoft/assets/173810617/536940b4-8576-40b4-bd1d-fb6423c97b6a)
 
 工作流程-仪表盘管理-仪表盘配置
-![输入图片说明](images/%E4%BB%AA%E8%A1%A8%E7%9B%98%E9%85%8D%E7%BD%AE.png)
+![仪表盘配置](https://github.com/EyweSoft/EyweSoft/assets/173810617/c2c90b1c-99a6-45f0-a861-c86d7ac85ae7)
+
