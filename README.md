@@ -20,7 +20,7 @@ QQ群交流群：[960994897]
 
 ### 安装教程
 
-安装包下载地址：[ <a href="https://pan.baidu.com/s/1yrE1lAyDqaY1pyzkS_DAWw?pwd=ew01" target="_blank">https://pan.baidu.com/s/1yrE1lAyDqaY1pyzkS_DAWw?pwd=ew01</a> ]
+安装包下载地址：[ <a href="https://pan.baidu.com/s/1pBRoUmW5hHOT0MDv7zLkDg?pwd=EW01" target="_blank">https://pan.baidu.com/s/1pBRoUmW5hHOT0MDv7zLkDg?pwd=EW01</a> ]
 
 <a href="https://github.com/EyweSoft/EyweSoft/wiki/%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83%E5%8F%8A%E6%95%99%E7%A8%8B" target="_blank">安装环境及教程</a> 
 
