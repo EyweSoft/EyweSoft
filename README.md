@@ -111,17 +111,15 @@ Eywe软件是一款免费的项目管理工具，灵活落地IPD、SCRUM、PMBOO
 ![1745822658408](https://github.com/user-attachments/assets/518043e2-a1f3-4b94-982f-b4e53719a64d)
 
 项目管理-需求管理
-![Uploading 1745822783853.png…]()
-
+![1745826432141](https://github.com/user-attachments/assets/389b882c-28b8-4bb3-8923-cc2d5e5463d1)
 
 项目管理-项目管理
-![项目管理](https://github.com/EyweSoft/EyweSoft/assets/173810617/25d93164-4c53-4efb-ad6d-306b152e28a6)
+![1745826491450](https://github.com/user-attachments/assets/323b2199-56e7-4ea3-a5a4-e4c109811083)
 
 项目管理-项目管理-计划任务
-![计划任务](https://github.com/EyweSoft/EyweSoft/assets/173810617/e9c11a76-f3cc-47aa-a29e-7415bb4e0f2d)
+![1745826549848](https://github.com/user-attachments/assets/aa30fbb5-f9d0-48e0-9c72-19ae35205e22)
 
 项目管理-项目管理-里程碑
-![里程碑](https://github.com/EyweSoft/EyweSoft/assets/173810617/16427a77-fc06-4d6e-addd-7d09168980c6)
 
 文档管理-文档库
 ![文档库](https://github.com/EyweSoft/EyweSoft/assets/173810617/efcdc0d2-a160-4597-851e-65b89313ce57)
