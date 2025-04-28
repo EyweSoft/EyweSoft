@@ -123,20 +123,21 @@ Eywe软件是一款免费的项目管理工具，灵活落地IPD、SCRUM、PMBOO
 ![1745830194266](https://github.com/user-attachments/assets/b5ed4b4f-dabf-4de7-b323-a02a2e5a1b2f)
 
 文档管理-文档库
-![文档库](https://github.com/EyweSoft/EyweSoft/assets/173810617/efcdc0d2-a160-4597-851e-65b89313ce57)
+![1745831386621](https://github.com/user-attachments/assets/3dd62e55-cdb5-4403-9668-e8c39e616224)
 
 测试管理-测试计划
-![测试计划](https://github.com/EyweSoft/EyweSoft/assets/173810617/2f8c853c-12a5-4534-85c1-62d236e75fb8)
+![1745831436826](https://github.com/user-attachments/assets/70d5bd6d-e390-4561-ae82-cfd9406d8007)
 
 测试管理-测试计划-执行计划
-![执行计划](https://github.com/EyweSoft/EyweSoft/assets/173810617/5a9bbacf-d6b8-4fd7-be8f-17223c6f5883)
+![1745831477753](https://github.com/user-attachments/assets/19f83e26-fcf6-485b-94f5-dc13d507e6ea)
 
 工作流程-流程管理-流程模型配置
-![流程模型配置](https://github.com/EyweSoft/EyweSoft/assets/173810617/01de66d8-2641-4f61-9d4c-f9b131ac2daa)
+![1745831558535](https://github.com/user-attachments/assets/c0017f7f-227b-4648-a0ca-19d5ef7ee50f)
 
 工作流程-模块管理-文档管理-页面配置
-![页面配置](https://github.com/EyweSoft/EyweSoft/assets/173810617/536940b4-8576-40b4-bd1d-fb6423c97b6a)
+![1745831615560](https://github.com/user-attachments/assets/63c90622-985b-4b07-b831-dcf33ddbdd78)
 
 工作流程-仪表盘管理-仪表盘配置
-![仪表盘配置](https://github.com/EyweSoft/EyweSoft/assets/173810617/c2c90b1c-99a6-45f0-a861-c86d7ac85ae7)
+![1745831668165](https://github.com/user-attachments/assets/6de72353-837d-414a-9756-5860cee01bff)
+
 
