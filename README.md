@@ -96,22 +96,23 @@ Eywe软件是一款免费的项目管理工具，灵活落地IPD、SCRUM、PMBOO
    ### Eywe部分功能模块预览
 
 工作台-我的任务
-![我的任务](https://github.com/EyweSoft/EyweSoft/assets/173810617/bc0b9459-c020-46a4-b24c-dc599ce7714c)
+![1745822352219](https://github.com/user-attachments/assets/84c72512-76c7-4ddf-8c07-f1bc9d41c87c)
 
 工作台-我的任务-填写进展
-![填写进展](https://github.com/EyweSoft/EyweSoft/assets/173810617/ec532bc4-ab79-491c-b391-b75aec331d22)
+![1745822411501](https://github.com/user-attachments/assets/3e3a63ab-2434-4669-8871-3bb79dabc72a)
 
 工作台-我的流程
-![我的流程](https://github.com/EyweSoft/EyweSoft/assets/173810617/2f92ff7a-62d3-43b5-8b94-51a000f9c697)
+![1745822484352](https://github.com/user-attachments/assets/728c5dab-24e4-4231-b4f5-3dda02d49c74)
 
 工作台-我的流程-流程审批
-![流程审批](https://github.com/EyweSoft/EyweSoft/assets/173810617/332c3e84-0079-4440-8fdf-33b9af68f497)
+![1745822535608](https://github.com/user-attachments/assets/a1e5f06e-6e79-4785-9020-e1ab49eec11d)
 
-工作台-我的地盘
-![我的地盘](https://github.com/EyweSoft/EyweSoft/assets/173810617/06f000f0-204d-4014-aa84-04cfac444b16)
+工作台-个人门户
+![1745822658408](https://github.com/user-attachments/assets/518043e2-a1f3-4b94-982f-b4e53719a64d)
 
 项目管理-需求管理
-![需求管理](https://github.com/EyweSoft/EyweSoft/assets/173810617/6219993f-536f-4fc5-9cb2-9845374e95a3)
+![Uploading 1745822783853.png…]()
+
 
 项目管理-项目管理
 ![项目管理](https://github.com/EyweSoft/EyweSoft/assets/173810617/25d93164-4c53-4efb-ad6d-306b152e28a6)
