@@ -9,7 +9,7 @@ Eywe软件是一款免费的项目管理工具，灵活落地IPD、SCRUM、PMBOO
 
 演示地址：[ <a href="http://www.cseywe.com:8080" target="_blank" rel="noopener noreferrer">http://www.cseywe.com:8080</a> ]
 
-账号：ZhangSan， 密码：123456
+账号：EY001， 密码：123456
 
 技术交流：![image](https://github.com/user-attachments/assets/09d641e9-d0c2-4691-9675-7af59d859dc9)
 
