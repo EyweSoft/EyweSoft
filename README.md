@@ -11,7 +11,8 @@ Eywe软件是一款免费的项目管理工具，灵活落地IPD、SCRUM、PMBOO
 
 账号：EY001， 密码：123456
 
-技术交流：![image](https://github.com/user-attachments/assets/09d641e9-d0c2-4691-9675-7af59d859dc9)
+技术交流：![图片1](https://github.com/user-attachments/assets/4df43711-1837-46d5-b505-2727d1266d53)
+
 
 
 
