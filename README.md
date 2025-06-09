@@ -19,8 +19,7 @@ Eywe软件是一款免费的项目管理工具，灵活落地IPD、SCRUM、PMBOO
 
 
 ### 安装教程
-
-<a href="https://pan.baidu.com/s/1J6OTIRCXBUIirrolGypxuw?pwd=ew01" target="_blank">安装包下载</a>
+<a href="https://pan.baidu.com/s/1zY-rgDwC0eClJdmOeqhpdQ?pwd=ew01" target="_blank">安装包下载</a>
 
 <a href="https://github.com/EyweSoft/EyweSoft/wiki/%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83%E5%8F%8A%E6%95%99%E7%A8%8B" target="_blank">安装环境及教程</a> 
 
