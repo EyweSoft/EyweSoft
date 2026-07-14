@@ -109,7 +109,7 @@ Eywe 项目管理系统采用前后端分离架构，面向企业研发与项目
    ### Eywe部分功能模块预览
 
 个人空间-工作台
-![Uploading 1-个人空间-工作台.png…]()
+<img width="1621" height="910" alt="1-个人空间-工作台" src="https://github.com/user-attachments/assets/3cb31355-58e8-4b53-9b5e-39d89c524806" />
 
 个人空间-驾驶舱
 ![输入图片说明](images/2-%E6%88%91%E7%9A%84%E5%9C%B0%E7%9B%98-%E9%A9%BE%E9%A9%B6%E8%88%B1.png)
