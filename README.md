@@ -1,30 +1,49 @@
-﻿# Eywe项目管理软件
+<p align="center">
+  <h1 align="center" style="margin: 30px 0 20px; font-weight: bold;">Eywe 项目管理系统</h1>
+  <h4 align="center">v4.3.2 · 基于 Spring Boot + Vue 3 前后端分离</h4>
+  <p align="center">
+    <a href="https://gitee.com/eywe-butler/eywe"><img src="https://gitee.com/eywe-butler/eywe/badge/star.svg?theme=dark" alt="Gitee Star"></a>
+    <img src="https://img.shields.io/badge/version-4.3.1-brightgreen.svg" alt="Version">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
+  </p>
+</p>
 
-### 介绍
+## 关于 Eywe
 
-Eywe软件是一款免费的项目管理工具，灵活落地IPD、SCRUM、PMBOOK等业界主流研发管理理念。以市场需求为导向，以计划任务为驱动，打通研发全流程，满足各岗位的项目协作需求。Eywe不仅提供项目管理、计划管理、需求管理、任务管理、测试管理和缺陷管理等丰富的功能模块，还支持用户零代码配置各种模块、流程、表单、字段、报表和仪表盘，满足用户个性化需求，协助中小型企业数字化转型，让项目管理更高效。
+**Eywe** 是一款免费的项目管理软件，由[易为软件](http://www.cseywe.com)提供。产品灵活落地 **IPD**、**SCRUM**、**PMBOK** 等业界主流研发管理理念，以市场需求为导向、以计划任务为驱动，打通研发全流程，满足各岗位的项目协作需求。
 
+Eywe 不仅提供项目管理、计划管理、需求管理、任务管理、测试管理和缺陷管理等丰富的功能模块，还支持用户**零代码**配置各类模块、流程、表单、字段、报表和仪表盘，满足个性化需求，协助中小型企业数字化转型，让项目管理更高效。
 
-官网网址：[ <a href="http://www.cseywe.com" target="_blank" rel="noopener noreferrer">http://www.cseywe.com</a> ]
+| 资源 | 地址 |
+| --- | --- |
+| 官方网站 | [http://www.cseywe.com](http://www.cseywe.com) |
+| 在线演示 | [http://www.cseywe.com:90](http://www.cseywe.com:90)（账号：`Eywe`，密码：`123456`） |
+| 开源仓库 | [https://gitee.com/eywe-butler/eywe](https://gitee.com/eywe-butler/eywe) |
+| 安装包下载 | [https://pan.baidu.com/s/1qdGPmofQsVBVQr8kMI2-4g?pwd=EY01](https://pan.baidu.com/s/1qdGPmofQsVBVQr8kMI2-4g?pwd=EY01) |
+| QQ 交流群 | **960994897** |
 
-演示地址：[ <a href="http://www.cseywe.com:8080" target="_blank" rel="noopener noreferrer">http://www.cseywe.com:8080</a> ]
+> 本仓库为 Eywe 管理端完整工程（后端多模块 + `eywe-ui` 前端），与 Gitee 主仓产品同源，便于二次开发与私有化部署。
 
-账号：EY001， 密码：123456
+## 平台简介
 
-技术交流：![图片1](https://github.com/user-attachments/assets/4df43711-1837-46d5-b505-2727d1266d53)
+Eywe 项目管理系统采用前后端分离架构，面向企业研发与项目协作场景，在系统管理能力之上叠加项目管理业务能力。
 
+**技术栈**
 
+| 层级 | 技术 |
+| --- | --- |
+| 前端 | Vue 3、Vite、Element Plus、Pinia、Vue Router、Axios、Sass |
+| 后端 | Java 8、Spring Boot 2.5、Spring Security、MyBatis、JWT |
+| 中间件 | Redis |
+| 数据库 | MySQL |
+| 其他 | Druid 连接池、Swagger 接口文档、Quartz 定时任务、代码生成器 |
 
+**架构特点**
 
-
-
-### 安装教程
-<a href="https://pan.baidu.com/s/1Vk1CYT3pjBnuRZLZDtVuqg?pwd=ew01" target="_blank">安装包下载</a>
-
-<a href="https://github.com/EyweSoft/EyweSoft/wiki/%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83%E5%8F%8A%E6%95%99%E7%A8%8B" target="_blank">安装环境及教程</a> 
-
-
-
+- 前后端分离，接口基于 JWT，支持多终端认证。
+- 支持动态权限菜单与多维度数据权限控制。
+- 内置代码生成器，可一键生成前后端 CRUD 代码。
+- 支持零代码扩展业务模块、流程、表单与报表（详见产品演示环境）。
 
 ### Eywe核心功能模块：
 
@@ -64,12 +83,6 @@ Eywe软件是一款免费的项目管理工具，灵活落地IPD、SCRUM、PMBOO
    - **缺陷跟踪**：跟踪缺陷的修复进度，确保所有缺陷得到及时解决。
    - **缺陷分析**：分析缺陷的原因和影响，提出改进建议。
 
-   **资源管理**：
-
-   - **资源分配**：合理分配项目资源，确保资源高效利用。
-   - **资源跟踪**：跟踪资源使用情况，确保资源在项目不同阶段的可用性。
-   - **资源优化**：优化资源配置，减少资源浪费。
-
    **团队协作**：
 
    - **沟通工具**：提供团队沟通工具，方便团队成员之间的交流与协作。
@@ -95,49 +108,287 @@ Eywe软件是一款免费的项目管理工具，灵活落地IPD、SCRUM、PMBOO
 
    ### Eywe部分功能模块预览
 
-工作台-我的任务
-![1745822352219](https://github.com/user-attachments/assets/84c72512-76c7-4ddf-8c07-f1bc9d41c87c)
+个人空间-工作台
+![输入图片说明](images/1-%E6%88%91%E7%9A%84%E5%9C%B0%E7%9B%98-%E5%B7%A5%E4%BD%9C%E5%8F%B0.png)
 
-工作台-我的任务-填写进展
-![1745822411501](https://github.com/user-attachments/assets/3e3a63ab-2434-4669-8871-3bb79dabc72a)
+个人空间-驾驶舱
+![输入图片说明](images/2-%E6%88%91%E7%9A%84%E5%9C%B0%E7%9B%98-%E9%A9%BE%E9%A9%B6%E8%88%B1.png)
 
-工作台-我的流程
-![1745822484352](https://github.com/user-attachments/assets/728c5dab-24e4-4231-b4f5-3dda02d49c74)
+个人空间-我的任务
+![输入图片说明](images/3-%E6%88%91%E7%9A%84%E5%9C%B0%E7%9B%98-%E6%88%91%E7%9A%84%E4%BB%BB%E5%8A%A1.png)
 
-工作台-我的流程-流程审批
-![1745822535608](https://github.com/user-attachments/assets/a1e5f06e-6e79-4785-9020-e1ab49eec11d)
+个人空间-我的任务-填写进展
+![输入图片说明](images/3-%E6%88%91%E7%9A%84%E5%9C%B0%E7%9B%98-%E6%88%91%E7%9A%84%E4%BB%BB%E5%8A%A1-%E5%A1%AB%E5%86%99%E8%BF%9B%E5%B1%95.png)
 
-工作台-个人门户
-![1745822658408](https://github.com/user-attachments/assets/518043e2-a1f3-4b94-982f-b4e53719a64d)
+个人空间-我的流程
+![输入图片说明](images/4-1%E4%B8%AA%E4%BA%BA%E7%A9%BA%E9%97%B4-%E6%88%91%E7%9A%84%E6%B5%81%E7%A8%8B.png)
 
-项目管理-需求管理
-![1745826432141](https://github.com/user-attachments/assets/389b882c-28b8-4bb3-8923-cc2d5e5463d1)
+个人空间-我的流程-流程审批
+![输入图片说明](images/4-2%E4%B8%AA%E4%BA%BA%E7%A9%BA%E9%97%B4-%E6%88%91%E7%9A%84%E6%B5%81%E7%A8%8B-%E6%B5%81%E7%A8%8B%E5%AE%A1%E6%89%B9.png)
+
+个人空间-我的消息
+![输入图片说明](images/4-2%E4%B8%AA%E4%BA%BA%E7%A9%BA%E9%97%B4-%E6%88%91%E7%9A%84%E6%B6%88%E6%81%AF.png)
+
+文件管理-文档管理
+![输入图片说明](images/4-%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86-%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86.png)
+
+文件管理-文档管理-在线预览
+![输入图片说明](images/5-%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86-%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86-%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88.png)
+
+文件管理-附件管理
+![输入图片说明](images/6-%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86-%E9%99%84%E4%BB%B6%E7%AE%A1%E7%90%86.png)
+
+项目管理-产品需求管理
+![输入图片说明](images/7-%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86-%E4%BA%A7%E5%93%81%E9%9C%80%E6%B1%82%E7%AE%A1%E7%90%86.png)
+
+项目管理-市场需求管理
+![输入图片说明](images/8-%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86-%E5%B8%82%E5%9C%BA%E9%9C%80%E6%B1%82%E7%AE%A1%E7%90%86.png)
+
+项目管理-立项管理
+![输入图片说明](images/9-%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86-%E7%AB%8B%E9%A1%B9%E7%AE%A1%E7%90%86.png)
+
+项目管理-立项管理-新建立项
+![输入图片说明](images/10-%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86-%E7%AB%8B%E9%A1%B9%E7%AE%A1%E7%90%86-%E6%96%B0%E5%BB%BA%E7%AB%8B%E9%A1%B9.png)
+
+项目管理-立项管理-立项流程
+![输入图片说明](images/11-%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86-%E7%AB%8B%E9%A1%B9%E7%AE%A1%E7%90%86-%E7%AB%8B%E9%A1%B9%E6%B5%81%E7%A8%8B.png)
 
 项目管理-项目管理
-![1745826491450](https://github.com/user-attachments/assets/323b2199-56e7-4ea3-a5a4-e4c109811083)
+![输入图片说明](images/12-%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86-%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86.png)
 
-项目管理-项目管理-计划任务
-![1745826549848](https://github.com/user-attachments/assets/aa30fbb5-f9d0-48e0-9c72-19ae35205e22)
+项目管理-甘特图
+![输入图片说明](images/13-%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86-%E7%94%98%E7%89%B9%E5%9B%BE.png)
 
-项目管理-项目管理-里程碑
-![1745830194266](https://github.com/user-attachments/assets/b5ed4b4f-dabf-4de7-b323-a02a2e5a1b2f)
+项目管理-里程碑
+![输入图片说明](images/14-%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86-%E9%87%8C%E7%A8%8B%E7%A2%91.png)
 
-文档管理-文档库
-![1745831386621](https://github.com/user-attachments/assets/3dd62e55-cdb5-4403-9668-e8c39e616224)
+项目管理-项目概览
+![输入图片说明](images/15-%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86-%E9%A1%B9%E7%9B%AE%E6%A6%82%E8%A7%88.png)
 
-测试管理-测试计划
-![1745831436826](https://github.com/user-attachments/assets/70d5bd6d-e390-4561-ae82-cfd9406d8007)
+项目管理-风险管理
+![输入图片说明](images/16-%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86-%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86.png)
 
-测试管理-测试计划-执行计划
-![1745831477753](https://github.com/user-attachments/assets/19f83e26-fcf6-485b-94f5-dc13d507e6ea)
+项目管理-风险管理-风险管理流程
+![输入图片说明](images/17-%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86-%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86-%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86%E6%B5%81%E7%A8%8B.png)
 
-工作流程-流程管理-流程模型配置
-![1745831558535](https://github.com/user-attachments/assets/c0017f7f-227b-4648-a0ca-19d5ef7ee50f)
+项目管理-变更管理-变更详情
+![输入图片说明](images/18-%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86-%E5%8F%98%E6%9B%B4%E7%AE%A1%E7%90%86-%E5%8F%98%E6%9B%B4%E8%AF%A6%E6%83%85.png)
 
-工作流程-模块管理-文档管理-页面配置
-![1745831615560](https://github.com/user-attachments/assets/63c90622-985b-4b07-b831-dcf33ddbdd78)
+项目管理-变更管理-变更流程图
+![输入图片说明](images/19-%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86-%E5%8F%98%E6%9B%B4%E7%AE%A1%E7%90%86-%E5%8F%98%E6%9B%B4%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
-工作流程-仪表盘管理-仪表盘配置
-![1745831668165](https://github.com/user-attachments/assets/6de72353-837d-414a-9756-5860cee01bff)
+项目管理-评审管理-新建评审
+![输入图片说明](images/20-%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86-%E8%AF%84%E5%AE%A1%E7%AE%A1%E7%90%86-%E6%96%B0%E5%BB%BA%E8%AF%84%E5%AE%A1.png)
 
+项目管理-评审管理-评审详情
+![输入图片说明](images/21-%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86-%E8%AF%84%E5%AE%A1%E7%AE%A1%E7%90%86-%E8%AF%84%E5%AE%A1%E8%AF%A6%E6%83%85.png)
 
+测试管理-测试计划-执行测试
+![输入图片说明](images/22-%E6%B5%8B%E8%AF%95%E7%AE%A1%E7%90%86-%E6%B5%8B%E8%AF%95%E8%AE%A1%E5%88%92-%E6%89%A7%E8%A1%8C%E6%B5%8B%E8%AF%95.png)
+
+测试管理-测试计划-测试报告
+![输入图片说明](images/23-%E6%B5%8B%E8%AF%95%E7%AE%A1%E7%90%86-%E6%B5%8B%E8%AF%95%E8%AE%A1%E5%88%92-%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A.png)
+
+业务中台-业务实体-添加实体模块
+![输入图片说明](images/24-%E4%B8%9A%E5%8A%A1%E4%B8%AD%E5%8F%B0-%E4%B8%9A%E5%8A%A1%E5%AE%9E%E4%BD%93-%E6%B7%BB%E5%8A%A0%E5%AE%9E%E4%BD%93%E6%A8%A1%E5%9D%97.png)
+
+业务中台-业务实体-业务实体配置
+![输入图片说明](images/25-%E4%B8%9A%E5%8A%A1%E4%B8%AD%E5%8F%B0-%E4%B8%9A%E5%8A%A1%E5%AE%9E%E4%BD%93-%E4%B8%9A%E5%8A%A1%E5%AE%9E%E4%BD%93%E9%85%8D%E7%BD%AE.png)
+
+业务中台-业务实体-页面配置
+![输入图片说明](images/26-%E4%B8%9A%E5%8A%A1%E4%B8%AD%E5%8F%B0-%E4%B8%9A%E5%8A%A1%E5%AE%9E%E4%BD%93-%E9%A1%B5%E9%9D%A2%E9%85%8D%E7%BD%AE.png)
+
+业务中台-业务流程-添加流程模块
+![输入图片说明](images/27-%E4%B8%9A%E5%8A%A1%E4%B8%AD%E5%8F%B0-%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B-%E6%B7%BB%E5%8A%A0%E6%B5%81%E7%A8%8B%E6%A8%A1%E5%9D%97.png)
+
+业务中台-业务流程-流转图配置
+![输入图片说明](images/28-%E4%B8%9A%E5%8A%A1%E4%B8%AD%E5%8F%B0-%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B-%E6%B5%81%E8%BD%AC%E5%9B%BE%E9%85%8D%E7%BD%AE.png)
+
+业务中台-业务流程-流转图检测
+![输入图片说明](images/29-%E4%B8%9A%E5%8A%A1%E4%B8%AD%E5%8F%B0-%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B-%E6%B5%81%E8%BD%AC%E5%9B%BE%E6%A3%80%E6%B5%8B.png)
+
+主题风格设置
+![输入图片说明](images/31-%E4%B8%BB%E9%A2%98%E9%A3%8E%E6%A0%BC%E8%AE%BE%E7%BD%AE.png)
+
+## 源码工程结构
+
+```
+eywe-admin-new/              # 本仓库（开发源码）
+├── images/preview/          # README 界面预览演示图
+├── bin/package.bat          # 后端一键打包
+├── customer-extend/           # 前端二次开发扩展工程
+│   └── bin/package.bat      # 扩展包一键打包
+├── eywe-admin/                # 启动模块（Web 入口）
+├── eywe-framework/            # 核心框架
+├── eywe-system/               # 系统管理
+├── eywe-business/             # 业务模块
+├── eywe-entity/               # 实体模型
+├── eywe-common/               # 通用工具
+├── eywe-generator/            # 代码生成
+├── eywe-quartz/               # 定时任务
+├── eywe-ui/                   # 主前端（Vue 3 + Vite）
+├── sql/                       # 数据库脚本
+├── eywe-start.bat / .sh       # 运行包启动脚本
+└── pom.xml
+```
+
+## 安装目录结构
+
+安装包解压后的运行目录（与源码仓库分离，例如 `C:\Program Files\Eywe2\eywe` 或桌面 `eywe2\eywe`）大致如下：
+
+```
+eywe/                        # 安装根目录
+├── bin/                     # 启停脚本（仅运行维护，无打包脚本）
+│   ├── eywe-start.bat     # Windows 启动
+│   ├── eywe-start.sh      # Linux 启动
+│   ├── eywe-stop.bat      # Windows 停止
+│   └── eywe-stop.sh       # Linux 停止
+├── environment/             # 内置 JDK、Nginx、Redis 等
+├── eyweApp/                 # 应用运行目录（后端 + 前端静态资源）
+│   ├── eywe-admin.jar       # 后端瘦包入口
+│   ├── lib/                 # 后端依赖库
+│   ├── uploadPath/          # 上传文件目录
+│   └── eywe-ui/             # 前端静态站点
+│       ├── index.html       # 主程序入口
+│       ├── assets/          # 主程序资源
+│       ├── images/          # 静态图片
+│       └── customer/        # 二次开发扩展包（独立子应用）
+│           ├── index.html
+│           ├── assets/
+│           └── README.txt
+├── logs/                    # 运行日志
+└── resources/               # 外部配置（application.yml 等）
+```
+
+> **说明**  
+> - `customer` 为扩展子目录，部署扩展包时只覆盖 `eywe-ui\customer`，不要替换整个 `eywe-ui` 根目录。  
+> - **`package.bat` 等打包脚本仅在源码仓库**（`eywe-admin-new/bin`、`customer-extend/bin` 等），安装目录的 `bin/` 只有启停脚本。
+
+## 快速开始
+
+### 环境要求
+
+- JDK 1.8+
+- Maven 3.6+
+- Node.js 18+（前端开发）
+- MySQL 5.7+ / 8.0+
+- Redis
+
+### 数据库
+
+按顺序执行 `sql/` 目录下脚本（具体以部署文档为准）：
+
+1. `1-base-pre.sql`
+2. `2-base-post.sql`
+3. `3-base-to-entity-pre.sql`
+4. `4-base-to-entity-post.sql`
+5. `5-entity-to-workflow-pre.sql`
+
+### 后端开发
+
+```bash
+# 在项目根目录
+mvn clean install -DskipTests
+cd eywe-admin
+mvn spring-boot:run
+```
+
+### 前端开发
+
+```bash
+cd eywe-ui
+npm install
+npm run dev
+```
+
+### 打包与更新（安装包）
+
+以下步骤在**已安装的 `eywe` 运行目录**上更新程序，源码在 `eywe-admin-new` 仓库中开发打包。
+
+#### 1. 后端更新
+
+1. 在源码仓库双击或执行 **`bin/package.bat`**（内部执行 `mvn clean package -Dmaven.test.skip=true`）。
+2. 打包产物位于：
+   ```
+   eywe-admin/target/eywe-admin-distribution/eyweApp/
+   ├── eywe-admin.jar
+   └── lib/
+   ```
+3. 将上述 **`lib` 文件夹** 与 **`eywe-admin.jar`** 复制到安装目录，**替换**：
+   ```
+   eywe/eyweApp/lib/
+   eywe/eyweApp/eywe-admin.jar
+   ```
+4. 若 `resources` 有配置变更，可同时对比并更新 `eywe/resources/`（按需）。
+5. 在 `eywe/bin/` 下先执行 `eywe-stop`，再执行 `eywe-start` 重启服务。
+
+#### 2. 前端二次开发扩展包更新
+
+扩展工程在 **`customer-extend/`**，与主程序 `eywe-ui` 分离部署。
+
+1. 执行 **`customer-extend/bin/package.bat`**（需 Node.js；首次会自动 `npm install`）。
+2. 打包产物位于 **`customer-extend/dist/`**（含 `index.html`、`assets/`、`README.txt`）。
+3. 将 `dist` 内**全部文件**复制到安装目录：
+   ```
+   eywe/eyweApp/eywe-ui/customer/
+   ```
+   覆盖该目录下原有文件即可，**勿**替换 `eywe-ui` 根目录下的主程序文件。
+
+可选：设置环境变量 `EYWE_WEB_ROOT` 指向 `eywe/eyweApp/eywe-ui`，打包脚本会自动复制到 `customer` 子目录。
+
+#### 3. 主前端更新（可选）
+
+主界面在 **`eywe-ui/`** 工程：
+
+1. 执行 **`eywe-ui/bin/package.bat`** 或 `cd eywe-ui && npm run build`。
+2. 将 `eywe-ui/dist/` 内文件复制到 **`eywe/eyweApp/eywe-ui/`** 根目录（同样不要动 `customer` 子目录，除非同时更新了扩展包）。
+
+   > 向码云上传时，请同时包含仓库根目录的 **`README.md`** 与 **`images/preview/`**，以便仓库首页预览图正常显示。
+
+#### 4. 启动服务
+
+在安装目录的 **`eywe/bin/`** 下执行启停脚本（会按需启动 Nginx、Redis 与后端 `eywe-admin.jar`）：
+
+```bash
+# Windows（安装目录 eywe/bin/）
+eywe-start.bat
+eywe-stop.bat
+
+# Linux
+chmod +x eywe-start.sh eywe-stop.sh
+./eywe-start.sh
+./eywe-stop.sh
+```
+
+## 在线体验
+
+- 演示地址：[http://www.cseywe.com:90](http://www.cseywe.com:90)  
+- 演示账号：`Eywe` / `123456`  
+- QQ 交流群：**960994897**（问题反馈、使用交流）
+
+本地开发环境账号密码以实际 `sql` 初始化数据为准。
+
+## 参与贡献
+
+欢迎提交 Issue、Pull Request，或向 [Gitee 主仓](https://gitee.com/eywe-butler/eywe) 贡献代码：
+
+1. Fork 本仓库或从主仓拉取最新代码。  
+2. 基于 `main` / `master` 新建功能分支进行开发（建议遵循现有代码风格与提交规范）。  
+3. 本地验证通过后提交 Pull Request，并简要说明改动内容与测试情况。  
+
+### 致谢
+
+Eywe 在架构与界面实现上受益于以下优秀开源项目，特此感谢：
+
+| 项目 | 说明 |
+| --- | --- |
+| [若依（RuoYi）](https://gitee.com/y_project/RuoYi) | 提供了成熟的后台管理框架与前后端分离实践，为本项目基础能力带来重要参考。 |
+| [Element UI](https://element.eleme.io/) | 优秀的 Vue 组件库；本项目前端基于 [Element Plus](https://element-plus.org/)（Element UI 的 Vue 3 继任版本）构建界面。 |
+
+## 开源协议
+
+本项目采用 [MIT License](LICENSE) 开源协议，个人与企业均可免费使用、修改与二次分发。使用或分发时，请保留原版权声明及许可文件。
+
+---
+
+<p align="center">Copyright © 易为软件 · <a href="http://www.cseywe.com">www.cseywe.com</a></p>
